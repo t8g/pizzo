@@ -1,0 +1,92 @@
+<img class="pizzaCustomImage" src="/assets/img/pizza-header.png" alt="image de pizza">
+<form action="" id="pizzaCustom">
+    <h1 class="u-h2">Pizza de lucca</h1>
+    <h2 class="u-h4">Recette</h2>
+    <p>Sauce tomate, mozzarella, tomates cerises marinées, billes de mozzarella di latte di Bufala, coppa di Parma IGP, roquette, huile d’olive AOP Kalamata </p>
+    <h2 class="u-h4">Adapter les ingrédients</h2>
+
+    <fieldset class="pizzaCustom-fieldset radiosfield">
+        <legend class="pizzaCustom-fieldset-title">Sauce</legend>
+        <div class="radiosfield-input">
+            <div>
+                <label class="radio">
+                    <input class="radio-input" type="radio" name="radioList1" checked>
+                    <span class="radio-label">Sauce tomage</span>
+                </label>
+            </div>
+            <div>
+                <label class="radio">
+                    <input class="radio-input" type="radio" name="radioList1">
+                    <span class="radio-label">Sauce base crème fraîche</span>
+                </label>
+            </div>
+        </div>
+    </fieldset>
+    <fieldset class="pizzaCustom-fieldset checkboxesfield">
+        <legend class="pizzaCustom-fieldset-title">Allergies et intolérances alimentaires</legend>
+        <div class="checkboxesfield-input">
+            <div>
+                <label class="checkbox">
+                    <input class="checkbox-input" type="checkbox" name="checkboxList1" checked>
+                    <span class="checkbox-label">Végétarien</span>
+                </label>
+            </div>
+            <div>
+                <label class="checkbox">
+                    <input class="checkbox-input" type="checkbox" name="checkboxList1">
+                    <span class="checkbox-label">Intolérance au lactose</span>
+                </label>
+            </div>
+        </div>
+    </fieldset>
+    <fieldset class="pizzaCustom-fieldset checkboxesfield">
+        <legend class="pizzaCustom-fieldset-title">Suppléments fromage</legend>
+        <div class="checkboxesfield-input">
+            <div>
+                <label class="checkbox">
+                    <input class="checkbox-input" type="checkbox" name="additionnalCheese">
+                    <span class="checkbox-label">Mozzarella (+1€)</span>
+                </label>
+            </div>
+            <div>
+                <label class="checkbox">
+                    <input class="checkbox-input" type="checkbox" name="additionnalCheese">
+                    <span class="checkbox-label">Bleu (+1€)</span>
+                </label>
+            </div>
+            <div>
+                <label class="checkbox">
+                    <input class="checkbox-input" type="checkbox" name="additionnalCheese">
+                    <span class="checkbox-label">Gorgonzola (+1.5€)</span>
+                </label>
+            </div>
+        </div>
+    </fieldset>
+    <fieldset class="pizzaCustom-fieldset checkboxesfield">
+        <legend class="pizzaCustom-fieldset-title">Autres suppléments</legend>
+        <div class="checkboxesfield-input">
+            <div>
+                <label class="checkbox">
+                    <input class="checkbox-input" type="checkbox" name="additionnalToppings">
+                    <span class="checkbox-label">Jambon de parme (+1.5€)</span>
+                </label>
+            </div>
+            <div>
+                <label class="checkbox">
+                    <input class="checkbox-input" type="checkbox" name="additionnalToppings">
+                    <span class="checkbox-label">Artichauds (+1€)</span>
+                </label>
+            </div>
+            <div>
+                <label class="checkbox">
+                    <input class="checkbox-input" type="checkbox" name="additionnalToppings">
+                    <span class="checkbox-label">Tomates séchées (+1.5€)</span>
+                </label>
+            </div>
+        </div>
+    </fieldset>
+    <footer class="pizzaCustom-form-footer">
+        <input class="button palette-secondary" type="submit" value="Ajouter cette pizza à la commande">
+        <button [routerLink]="['/home']" class="button mod-link" type="button">Annuler</button>
+    </footer>
+</form>

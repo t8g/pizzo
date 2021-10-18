@@ -1,0 +1,56 @@
+@import "theming.import";
+
+legend {
+  padding: 0;
+  display: table;
+}
+fieldset {
+  border: 0;
+  padding: 0.01em 0 0 0;
+  margin: 0;
+  min-width: 0;
+}
+body:not(:-moz-handler-blocked) fieldset {
+  display: table-cell;
+}
+
+:host {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.pizzaCustomImage {
+  width: 30%;
+  object-fit: cover;
+}
+
+#pizzaCustom {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: _theme("spacings.small") _theme("spacings.standard");
+}
+
+.pizzaCustom-fieldset-title {
+    display: block;
+    width: 100%;
+    padding: _theme("spacings.smaller") _theme("spacings.small");
+    font-size: _theme("sizes.small.font-size");
+    line-height: _theme("sizes.small.line-height");
+    background-color: _color("grey", "100");
+    color: _color("grey", "700");
+    font-weight: 600;
+}
+
+[class$="field-input"] {
+  padding: _theme("spacings.smaller") _theme("spacings.small");
+}
+
+
+.pizzaCustom-form-footer {
+  margin-top: auto;
+  padding: _theme("spacings.small") 0;
+  text-align: right;
+}
