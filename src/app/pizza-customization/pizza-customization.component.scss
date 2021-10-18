@@ -48,6 +48,11 @@ body:not(:-moz-handler-blocked) fieldset {
   padding: _theme("spacings.smaller") _theme("spacings.small");
 }
 
+.sauceSection {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
 
 .pizzaCustom-form-footer {
   margin-top: auto;
