@@ -1,0 +1,30 @@
+$palettes: (
+  primary: (
+    '50': #FFEDE0,
+    '100': #FFE1CC,
+    '200': #FFD3B3,
+    '300': #FFC79E,
+    '400': #FFB685,
+    '500': #FF9D5C,
+    '600': #FF7E29,
+    '700': #FF6600,
+    '800': #CC3D00,
+    '900': #A82D00,
+    'color': #FF6600,
+  ),
+  secondary: (
+    '50': #E2EBFD,
+    '100': #CCDDFF,
+    '200': #B3CCFF,
+    '300': #9EBEFF,
+    '400': #85AEFF,
+    '500': #6699FF,
+    '600': #4280FA,
+    '700': #2067F3,
+    '800': #0A48C2,
+    '900': #083691,
+    'color': #2067F3
+  )
+);
+
+$theme: _set($theme, 'palettes', $palettes);
