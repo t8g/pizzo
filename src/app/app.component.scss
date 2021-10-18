@@ -1,0 +1,43 @@
+@import "theming.import";
+
+header {
+    background-image: url('/assets/img/pizza-header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+	padding: 7.5rem 0;
+
+    .header-content {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 _theme("spacings.bigger");
+    }
+
+	h1, h1>* {
+		color: _color("white");
+	}
+	.cursive {
+		display: block;
+		font-size: 50px;
+		line-height: _theme("spacings.bigger");
+	}
+}
+
+main {
+    padding: _theme("spacings.small") _theme("spacings.bigger");
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.pizzaSection {
+    margin-bottom: _theme("spacings.standard");
+}
+
+.pizzaList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: _theme("spacings.standard");
+}
+
+.pizzaList-item-img {
+    width: 100%;
+}

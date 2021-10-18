@@ -4,3 +4,13 @@ $noCssVar: false;
 :root {
 	@include generateCSSVarsFromTheme($theme);
 }
+
+.cursive {
+	font-family: 'Permanent Marker', cursive;
+}
+
+ul, li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
