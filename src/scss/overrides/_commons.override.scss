@@ -1,0 +1,7 @@
+$commons: (
+	background: (
+		base: #FFF
+	),
+);
+
+$theme: _set($theme, "commons", $commons);
