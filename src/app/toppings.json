@@ -1,0 +1,58 @@
+[
+    {
+        "id": 0,
+        "name": "Sauce tomate",
+        "type": 0,
+        "price": 0,
+        "isVegetarian": true
+    },
+    {
+        "id": 1,
+        "name": "Crème fraîche légère française",
+        "type": 0,
+        "price": 0,
+        "isVegetarian": true
+    },
+    {
+        "id": 2,
+        "name": "Mozzarella",
+        "type": 1,
+        "price": 1,
+        "isVegetarian": true
+    },
+    {
+        "id": 3,
+        "name": "Chèvre",
+        "type": 1,
+        "price": 1,
+        "isVegetarian": true
+    },
+    {
+        "id": 4,
+        "name": "Gorgonzola",
+        "type": 1,
+        "price": 1.5,
+        "isVegetarian": true
+    },
+    {
+        "id": 5,
+        "name": "Jambon de parme",
+        "type": 2,
+        "price": 1.5,
+        "isVegetarian": false
+    },
+    {
+        "id": 4,
+        "name": "Artichauds",
+        "type": 2,
+        "price": 1,
+        "isVegetarian": true
+    },
+    {
+        "id": 6,
+        "name": "Tomates séchées",
+        "type": 2,
+        "price": 1.5,
+        "isVegetarian": true
+    }
+]

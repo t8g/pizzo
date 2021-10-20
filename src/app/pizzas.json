@@ -3,6 +3,8 @@
         "id": 0,
         "type": 0,
         "isVegetarian": false,
+        "baseSauceId": 0,
+        "price": 13,
         "name": "Lucca",
         "description": "Sauce tomate, mozzarella, tomates cerises marinées, billes de mozzarella di latte di Bufala, coppa di Parma IGP, roquette, huile d’olive AOP Kalamata."
     },
@@ -10,6 +12,8 @@
         "id": 1,
         "type": 0,
         "isVegetarian": false,
+        "baseSauceId": 1,
+        "price": 14.5,
         "name": "Pacioli",
         "description": "Crème fraîche légère française, mozzarella, courgettes marinées, olives Kalamata Bio dénoyautées, tomates cerises marinées, roquette, huile d’olive AOP Kalamata."
     },
@@ -17,6 +21,8 @@
         "id": 2,
         "type": 0,
         "isVegetarian": true,
+        "baseSauceId": 1,
+        "price": 15,
         "name": "Satché",
         "description": "Crème fraîche légère française, mozzarella, gambas, oignons, courgettes marinées, tomates cerises marinées, persillade, quartiers de citron vert."
     },
@@ -24,6 +30,8 @@
         "id": 3,
         "type": 0,
         "isVegetarian": false,
+        "baseSauceId": 1,
+        "price": 15,
         "name": "Martine",
         "description": "Crème fraîche légère française, mozzarella, courgettes marinées, coppa di Parma IGP, chèvre, champignons de Paris, tomates cerises marinées, huile d'olive AOP Kalamata."
     },
@@ -31,6 +39,8 @@
         "id": 4,
         "type": 1,
         "isVegetarian": true,
+        "baseSauceId": 0,
+        "price": 9.75,
         "name": "Margarita",
         "description": "Sauce tomate, mozzarella."
     },
@@ -38,6 +48,8 @@
         "id": 5,
         "type": 1,
         "isVegetarian": true,
+        "baseSauceId": 0,
+        "price": 13,
         "name": "4 fromages",
         "description": "Sauce tomate, mozzarella, chèvre, emmental français, Fourme d’Ambert AOP."
     },
@@ -45,6 +57,8 @@
         "id": 6,
         "type": 1,
         "isVegetarian": false,
+        "baseSauceId": 0,
+        "price": 10.5,
         "name": "Reine",
         "description": "Sauce tomate, mozzarella, jambon, champignons de Paris."
     },
@@ -52,6 +66,8 @@
         "id": 7,
         "type": 1,
         "isVegetarian": false,
+        "baseSauceId": 0,
+        "price": 12,
         "name": "Chorizo",
         "description": "Sauce tomate, mozzarella, chorizo."
     }
