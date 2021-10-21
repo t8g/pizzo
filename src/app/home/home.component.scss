@@ -41,3 +41,12 @@ main {
 .pizzaList-item-img {
     width: 100%;
 }
+
+.pizzaList-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .button {
+        margin-top: auto;
+    }
+}
