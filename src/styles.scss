@@ -1,6 +1,8 @@
 $noCssVar: false;
 
-@import "~@lucca-front/scss/src/main.overridable.scss";
+@import "~@lucca-front/scss/src/main.overridable";
+@import '~@lucca-front/ng/style/main.overridable';
+
 :root {
 	@include generateCSSVarsFromTheme($theme);
 }
